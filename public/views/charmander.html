@@ -2,10 +2,10 @@
   <h1>Charmander #004</h1>
 </header>
 <main>
-  <button type="submit" ng-click="main.catch()" class="btn .btn-default">Catch Charmander</button>
+  <button type="submit" ng-click="catch = !catch" class="btn .btn-default">Catch Charmander</button>
   <br />
-  <img class="pokeballCatch" ng-class="main.catch" ng-src="http://thecraftchop.com/files/others/Pokeball.svg" />
-  <img ng-class="main.pokemon" ng-src="http://vignette1.wikia.nocookie.net/pokemon/images/9/96/004Charmander_OS_anime.png/revision/latest?cb=20140603214902" />
+  <img ng-show="catch" ng-src="http://thecraftchop.com/files/others/Pokeball.svg" />
+  <img ng-hide="catch" ng-src="http://vignette1.wikia.nocookie.net/pokemon/images/9/96/004Charmander_OS_anime.png/revision/latest?cb=20140603214902" />
   <p class="summary">The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.</p>
   <section>
     <button type="submit" ng-click="show=true" class="btn .btn-default">stats</button>
