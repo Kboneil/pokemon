@@ -89,7 +89,7 @@ p{
 .summary{
   margin: auto;
   width:800px;
-  font-size: 25px;
+  font-size: 15px;
   padding: 15px;
 }
 
@@ -107,4 +107,16 @@ footer {
   padding: 1rem;
   margin-top: 15px;
   text-align: center;
+}
+.show{
+  display: inherit;
+}
+.pokeballCatch{
+  display: none;
+}
+.catch{
+  display: inline;
+}
+.hide {
+  display:none;
 }

@@ -2,7 +2,10 @@
   <h1>Jigglypuff #039</h1>
 </header>
 <main>
-  <img ng-src="http://vignette1.wikia.nocookie.net/pokemon/images/e/ed/039Jigglypuff_Dream.png/revision/latest?cb=20140910075209" />
+  <button type="submit" ng-click="main.catch()" class="btn .btn-default">Catch Jigglypuff</button>
+  <br />
+  <img class="pokeballCatch" ng-class="main.catch" ng-src="http://thecraftchop.com/files/others/Pokeball.svg" />
+  <img ng-class="main.pokemon" ng-src="http://vignette1.wikia.nocookie.net/pokemon/images/e/ed/039Jigglypuff_Dream.png/revision/latest?cb=20140910075209" />
   <p class="summary">Jigglypuff's vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy.</p>
   <section>
     <button type="submit" ng-click="show=true" class="btn .btn-default">stats</button>
