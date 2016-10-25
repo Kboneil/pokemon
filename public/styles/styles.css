@@ -93,6 +93,17 @@ p{
   padding: 15px;
 }
 
+
+.shake{
+  animation: shake 1s linear 0.5s infinite;
+}
+
+@keyframes shake {
+   0%, 100% {transform: translateX(0);}
+   10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+   20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+
 wrapper {
 	margin: 0 auto;
   padding-top: 64px;
@@ -107,16 +118,4 @@ footer {
   padding: 1rem;
   margin-top: 15px;
   text-align: center;
-}
-.show{
-  display: inherit;
-}
-.pokeballCatch{
-  display: none;
-}
-.catch{
-  display: inline;
-}
-.hide {
-  display:none;
 }
